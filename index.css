@@ -18,11 +18,13 @@ h2 {
 }
 
 .main-counter {
+    position: absolute;
     background: #FFFFFF;
     max-width: 300px;
     margin: auto;
-    margin-top: 50%;
-    transform: translateY(-100%);
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 38px -10px rgba(0,0,0,0.75);
