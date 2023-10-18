@@ -15,3 +15,13 @@ function save() {
     count = 0;
     entries++;
 }
+
+const incrementBtnEl = document.querySelector("#increment-btn");
+incrementBtnEl.addEventListener("click", () => {
+    increment();
+});
+
+const saveBtnEl = document.querySelector("#save-btn");
+saveBtnEl.addEventListener("click", () => {
+    save();
+});
